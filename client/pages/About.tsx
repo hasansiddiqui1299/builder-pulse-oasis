@@ -13,7 +13,8 @@ export default function About() {
         </div>
         <h1 className="text-2xl font-bold text-foreground">About ECOGLOW</h1>
         <p className="text-muted-foreground">
-          Learn about our story, mission, and commitment to bringing premium menswear to Karachi and beyond.
+          Learn about our story, mission, and commitment to bringing premium
+          menswear to Karachi and beyond.
         </p>
         <div className="text-sm text-brand-600">
           Continue prompting to have this page filled with beautiful content!

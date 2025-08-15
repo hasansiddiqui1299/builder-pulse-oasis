@@ -13,7 +13,8 @@ export default function Contact() {
         </div>
         <h1 className="text-2xl font-bold text-foreground">Contact Us</h1>
         <p className="text-muted-foreground">
-          Get in touch with our team. We'd love to hear from you and help with your fashion needs.
+          Get in touch with our team. We'd love to hear from you and help with
+          your fashion needs.
         </p>
         <div className="text-sm text-brand-600">
           Continue prompting to have this page filled with beautiful content!

@@ -84,7 +84,7 @@ export function Header() {
             >
               <ShoppingBag className="w-5 h-5" />
             </Button>
-            
+
             {/* Mobile menu button */}
             <Button
               variant="ghost"

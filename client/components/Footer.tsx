@@ -1,5 +1,12 @@
 import { Link } from "react-router-dom";
-import { MapPin, Phone, Mail, Instagram, Facebook, Twitter } from "lucide-react";
+import {
+  MapPin,
+  Phone,
+  Mail,
+  Instagram,
+  Facebook,
+  Twitter,
+} from "lucide-react";
 
 export function Footer() {
   return (
@@ -89,7 +96,9 @@ export function Footer() {
 
           {/* Customer Service */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold text-white">Customer Service</h3>
+            <h3 className="text-lg font-semibold text-white">
+              Customer Service
+            </h3>
             <nav className="flex flex-col space-y-2">
               <Link
                 to="/shipping"

@@ -29,7 +29,7 @@ export default function Index() {
                   and style.
                 </p>
               </div>
-              
+
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button
                   size="lg"
@@ -51,7 +51,10 @@ export default function Index() {
               <div className="flex items-center gap-6 pt-4">
                 <div className="flex items-center gap-1">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                    <Star
+                      key={i}
+                      className="w-4 h-4 fill-yellow-400 text-yellow-400"
+                    />
                   ))}
                   <span className="ml-2 text-sm text-muted-foreground">
                     4.9/5 (2,341 reviews)
@@ -78,7 +81,7 @@ export default function Index() {
                   </div>
                 </div>
               </div>
-              
+
               {/* Floating Elements */}
               <div className="absolute -top-4 -right-4 bg-white rounded-xl shadow-lg p-4">
                 <div className="flex items-center gap-2">
@@ -86,11 +89,13 @@ export default function Index() {
                   <span className="text-sm font-medium">In Stock</span>
                 </div>
               </div>
-              
+
               <div className="absolute -bottom-4 -left-4 bg-white rounded-xl shadow-lg p-4">
                 <div className="text-center">
                   <div className="text-2xl font-bold text-brand-600">500+</div>
-                  <div className="text-xs text-muted-foreground">Happy Customers</div>
+                  <div className="text-xs text-muted-foreground">
+                    Happy Customers
+                  </div>
                 </div>
               </div>
             </div>
@@ -111,17 +116,19 @@ export default function Index() {
                 Free delivery on orders over PKR 5,000
               </p>
             </div>
-            
+
             <div className="text-center space-y-4">
               <div className="w-12 h-12 mx-auto bg-brand-100 rounded-full flex items-center justify-center">
                 <Shield className="w-6 h-6 text-brand-600" />
               </div>
-              <h3 className="font-semibold text-foreground">Quality Guarantee</h3>
+              <h3 className="font-semibold text-foreground">
+                Quality Guarantee
+              </h3>
               <p className="text-sm text-muted-foreground">
                 Premium materials with lifetime warranty
               </p>
             </div>
-            
+
             <div className="text-center space-y-4">
               <div className="w-12 h-12 mx-auto bg-brand-100 rounded-full flex items-center justify-center">
                 <Headphones className="w-6 h-6 text-brand-600" />
@@ -131,7 +138,7 @@ export default function Index() {
                 Expert styling advice anytime
               </p>
             </div>
-            
+
             <div className="text-center space-y-4">
               <div className="w-12 h-12 mx-auto bg-brand-100 rounded-full flex items-center justify-center">
                 <ArrowRight className="w-6 h-6 text-brand-600" />
@@ -153,7 +160,8 @@ export default function Index() {
               Featured Collections
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Discover our carefully curated collections designed for the modern Pakistani gentleman
+              Discover our carefully curated collections designed for the modern
+              Pakistani gentleman
             </p>
           </div>
 
@@ -165,15 +173,21 @@ export default function Index() {
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors flex items-center justify-center">
                     <div className="text-white text-center space-y-2">
                       <h3 className="text-xl font-semibold">Formal Wear</h3>
-                      <p className="text-sm opacity-90">Professional & Elegant</p>
+                      <p className="text-sm opacity-90">
+                        Professional & Elegant
+                      </p>
                     </div>
                   </div>
                 </div>
                 <div className="p-6">
                   <div className="flex items-center justify-between">
                     <div>
-                      <h3 className="font-semibold text-foreground">Formal Collection</h3>
-                      <p className="text-sm text-muted-foreground">From PKR 8,999</p>
+                      <h3 className="font-semibold text-foreground">
+                        Formal Collection
+                      </h3>
+                      <p className="text-sm text-muted-foreground">
+                        From PKR 8,999
+                      </p>
                     </div>
                     <Button
                       variant="ghost"
@@ -201,8 +215,12 @@ export default function Index() {
                 <div className="p-6">
                   <div className="flex items-center justify-between">
                     <div>
-                      <h3 className="font-semibold text-foreground">Casual Collection</h3>
-                      <p className="text-sm text-muted-foreground">From PKR 3,999</p>
+                      <h3 className="font-semibold text-foreground">
+                        Casual Collection
+                      </h3>
+                      <p className="text-sm text-muted-foreground">
+                        From PKR 3,999
+                      </p>
                     </div>
                     <Button
                       variant="ghost"
@@ -230,8 +248,12 @@ export default function Index() {
                 <div className="p-6">
                   <div className="flex items-center justify-between">
                     <div>
-                      <h3 className="font-semibold text-foreground">Traditional Collection</h3>
-                      <p className="text-sm text-muted-foreground">From PKR 12,999</p>
+                      <h3 className="font-semibold text-foreground">
+                        Traditional Collection
+                      </h3>
+                      <p className="text-sm text-muted-foreground">
+                        From PKR 12,999
+                      </p>
                     </div>
                     <Button
                       variant="ghost"
@@ -256,8 +278,9 @@ export default function Index() {
               Ready to Transform Your Wardrobe?
             </h2>
             <p className="text-lg text-brand-100">
-              Join thousands of satisfied customers who trust ECOGLOW for their fashion needs.
-              Experience the perfect blend of style, comfort, and quality.
+              Join thousands of satisfied customers who trust ECOGLOW for their
+              fashion needs. Experience the perfect blend of style, comfort, and
+              quality.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button

@@ -13,7 +13,8 @@ export default function Collections() {
         </div>
         <h1 className="text-2xl font-bold text-foreground">Collections</h1>
         <p className="text-muted-foreground">
-          Our collections page is coming soon! We're curating the perfect selection of premium menswear for you.
+          Our collections page is coming soon! We're curating the perfect
+          selection of premium menswear for you.
         </p>
         <div className="text-sm text-brand-600">
           Continue prompting to have this page filled with beautiful content!
