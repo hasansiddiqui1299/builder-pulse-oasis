@@ -10,50 +10,55 @@
   */
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 164 100% 12%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 164 100% 12%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 164 100% 12%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 164 89% 26%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 164 25% 95%;
+    --secondary-foreground: 164 100% 12%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 164 25% 95%;
+    --muted-foreground: 164 15% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 164 45% 85%;
+    --accent-foreground: 164 100% 12%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 164 25% 88%;
+    --input: 164 25% 88%;
+    --ring: 164 89% 26%;
 
     --radius: 0.5rem;
 
+    /* Brand colors - Sea green palette */
+    --brand-50: 164 100% 97%;
+    --brand-100: 164 85% 91%;
+    --brand-200: 164 85% 81%;
+    --brand-300: 164 85% 67%;
+    --brand-400: 164 85% 51%;
+    --brand-500: 164 89% 26%;
+    --brand-600: 164 100% 20%;
+    --brand-700: 164 100% 16%;
+    --brand-800: 164 100% 12%;
+    --brand-900: 164 100% 8%;
+
     --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
+    --sidebar-foreground: 164 15% 26%;
+    --sidebar-primary: 164 89% 26%;
     --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-accent: 164 25% 95%;
+    --sidebar-accent-foreground: 164 100% 12%;
+    --sidebar-border: 164 25% 88%;
+    --sidebar-ring: 164 89% 26%;
   }
 
   .dark {
